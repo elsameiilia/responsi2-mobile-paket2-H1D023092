@@ -31,7 +31,7 @@ Berikut ditampilkan video saat menjalankan aplikasi :<br>
 | Response | `{ "code":200, "status":"boolean", "data":[{"token":"string", "user":{"id":"int", "email":"string"}}] }`
 
 ### 📦 CRUD Barang
-1. List Barang<br>
+1. List Barang
 | Endpoint | `/barang` |
 |---|---|
 | Method | GET |
@@ -39,7 +39,7 @@ Berikut ditampilkan video saat menjalankan aplikasi :<br>
 | Body | - |
 | Response | `{ "code":200, "status":"boolean", "data":[{"id":"int", "nama":"string", "harga":"int", "jumlah":"int", "tanggal_masuk":"string", "tanggal_kadaluarsa":"string"}] }`
 
-2. Lihat Barang<br>
+2. Lihat Barang
 | Endpoint | `/barang/{id}` |
 |---|---|
 | Method | GET |
