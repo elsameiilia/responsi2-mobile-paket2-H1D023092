@@ -34,6 +34,7 @@ Berikut ditampilkan video saat menjalankan aplikasi :<br>
 1. List Barang
 
 | Endpoint | `/barang` |
+|---|---|
 | Method | GET |
 | Header | Content-type: application/json |
 | Body | - |
@@ -42,6 +43,7 @@ Berikut ditampilkan video saat menjalankan aplikasi :<br>
 2. Lihat Barang
 
 | Endpoint | `/barang/{id}` |
+|---|---|
 | Method | GET |
 | Header | Content-type: application/json |
 | Body | - |
@@ -50,6 +52,7 @@ Berikut ditampilkan video saat menjalankan aplikasi :<br>
 3. Tambah Barang
 
 | Endpoint | `/barang` |
+|---|---|
 | Method | POST |
 | Header | Content-type: application/json |
 | Body | {"id":"int", "nama":"string", "harga":"int", "jumlah":"int", "tanggal_masuk":"string", "tanggal_kadaluarsa":"string"} |
@@ -58,6 +61,7 @@ Berikut ditampilkan video saat menjalankan aplikasi :<br>
 4. Ubah Barang
 
 | Endpoint | `/barang/{id}` |
+|---|---|
 | Method | PUT |
 | Header | Content-type: application/json |
 | Body | {"id":"int", "nama":"string", "harga":"int", "jumlah":"int", "tanggal_masuk":"string", "tanggal_kadaluarsa":"string"} |
@@ -66,6 +70,7 @@ Berikut ditampilkan video saat menjalankan aplikasi :<br>
 5. Hapus Barang
 
 | Endpoint | `/barang/{id}` |
+|---|---|
 | Method | DELETE |
 | Header | Content-type: application/json |
 | Body | - |
